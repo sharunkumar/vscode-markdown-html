@@ -1,4 +1,4 @@
-基于　yzane　的项目：[vscode-markdown-pdf](https://github.com/yzane/vscode-markdown-pdf)，添加了markdown-it-named-headers，并移除了与之冲突的 markdown-it-anchor。
+基于yzane的项目：[vscode-markdown-pdf](https://github.com/yzane/vscode-markdown-pdf)，添加了markdown-it-named-headers，并移除了与之冲突的 markdown-it-anchor。
 
 使用方法
 > git clone https://github.com/ZhYong10/vscode-markdown-pdf.git <br>
