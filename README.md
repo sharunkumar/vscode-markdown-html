@@ -2,8 +2,6 @@
 
 This extension convert Markdown file to pdf, html, png or jpeg file.
 
-[Japanease README](https://github.com/yzane/vscode-markdown-pdf/blob/master/README.ja.md)
-
 ## Features
 
 Supports the following features.
@@ -160,9 +158,11 @@ MIT
 
 
 ## Special thanks
+* [vscode-markdown-pdf](https://github.com/yzane/vscode-markdown-pdf)
 * [marcbachmann/node-html-pdf](https://github.com/marcbachmann/node-html-pdf)
 * [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
 * [mcecot/markdown-it-checkbox](https://github.com/mcecot/markdown-it-checkbox)
+* [mcecot/markdown-it-named-headers](https://github.com/mcecot/markdown-it-named-headers)
 * [markdown-it/markdown-it-emoji](https://github.com/markdown-it/markdown-it-emoji)
 * [HenrikJoreteg/emoji-images](https://github.com/HenrikJoreteg/emoji-images)
 * [isagalaev/highlight.js](https://github.com/isagalaev/highlight.js)
