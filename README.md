@@ -1,3 +1,14 @@
+基于　yzane　的项目：[vscode-markdown-pdf](https://github.com/yzane/vscode-markdown-pdf)，添加了markdown-it-named-headers，并移除了与之冲突的 markdown-it-anchor。
+
+使用方法
+> git clone https://github.com/ZhYong10/vscode-markdown-pdf.git
+> cd vscode-markdown-pdf
+> // 安装vscode扩展打包工具 vsce
+> npm install -g vsce
+> vsce package // 将会生成markdown-pdf-0.1.8.vsix
+
+在vsce安装扩展：markdown-pdf-0.1.8.vsix
+
 # Markdown PDF
 
 This extension convert Markdown file to pdf, html, png or jpeg file.
