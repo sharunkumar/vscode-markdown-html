@@ -17,9 +17,10 @@
 
 ## 功能描述
 
-只能生成html。
+1. 只能生成html。
 未知的原因，导致生成pdf失败。
 临时方案：用chrome打开生成的html，可以打印为pdf。
+2. 项目里使用了过时的PhantomJS。功能可用，但正在考虑使用其他方案。
 
 # Markdown PDF
 
