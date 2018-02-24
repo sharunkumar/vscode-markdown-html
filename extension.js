@@ -583,14 +583,12 @@ function installPhantomjsBinary() {
 }
 
 function slugify(header) {
-    var h = encodeURI(header.trim()
+    return encodeURI(header.trim()
         .toLowerCase()
         .replace(/[\]\[\!\"\#\$\%\&\'\(\)\*\+\,\.\/\:\;\<\=\>\?\@\\\^\_\{\|\}\~\`]/g, '')
         .replace(/\s+/g, '-')
         .replace(/^\-+/, '')
         .replace(/\-+$/, ''));
-    console.log(header, h);
-    return h;
 }
 
 function init() {
