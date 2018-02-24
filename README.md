@@ -12,7 +12,8 @@
 > vsce package // 将会生成markdown-pdf-0.1.8.vsix <br>
 
 在vscode里安装扩展，选择从VSIX安装：markdown-pdf-0.1.8.vsix
-使用时。在vscode打开.md文档，
+在settings.json里，添加用户设置导出格式为html："markdown-pdf.type": "html",
+使用时。在vscode打开.md文档，使用命令：Convert Markdown To Pdf。
 
 ## 功能描述
 
