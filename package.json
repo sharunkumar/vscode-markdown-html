@@ -1,7 +1,7 @@
 {
-  "name": "markdown-pdf",
-  "displayName": "Markdown PDF",
-  "description": "Convert Markdown to PDF",
+  "name": "markdown-html",
+  "displayName": "Markdown HTML",
+  "description": "Convert Markdown to HTML",
   "version": "0.1.8",
   "publisher": "zhyong10",
   "icon": "images/icon.png",
@@ -32,7 +32,7 @@
     "commands": [
       {
         "command": "extension.markdown-pdf",
-        "title": "Convert Markdown to PDF"
+        "title": "Convert Markdown to HTML"
       }
     ],
     "menus": {
