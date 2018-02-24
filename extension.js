@@ -187,16 +187,18 @@ function convertMarkdownToHtml(filename) {
     // checkbox
     md.use(require('markdown-it-checkbox'));
 
-    // named headers
-    md.use(require('markdown-it-named-headers'));
-
     // Toc
     var f = vscode.workspace.getConfiguration('markdown-pdf')['table-of-contents'];
     if (f) {
-        md.use(require("markdown-it-anchor")); // Optional, but makes sense as you really want to link to something
+        // WARNING: 'markdown-it-anchor' conflict with 'markdown-it-named-headers'
+        // md.use(require("markdown-it-anchor")); // Optional, but makes sense as you really want to link to something
         md.use(require("markdown-it-table-of-contents"), f);
     }
 
+    // named headers
+    md.use(require('markdown-it-named-headers'), {
+        slugify: slugify
+    });
 
     // emoji
     var f = vscode.workspace.getConfiguration('markdown-pdf')['emoji'];
@@ -578,6 +580,17 @@ function installPhantomjsBinary() {
     if (checkPhantomjs()) {
         return;
     }
+}
+
+function slugify(header) {
+    var h = encodeURI(header.trim()
+        .toLowerCase()
+        .replace(/[\]\[\!\"\#\$\%\&\'\(\)\*\+\,\.\/\:\;\<\=\>\?\@\\\^\_\{\|\}\~\`]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/^\-+/, '')
+        .replace(/\-+$/, ''));
+    console.log(header, h);
+    return h;
 }
 
 function init() {
