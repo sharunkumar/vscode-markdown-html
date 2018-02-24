@@ -1,3 +1,5 @@
+## 简介
+
 基于yzane的项目：[vscode-markdown-pdf](https://github.com/yzane/vscode-markdown-pdf)，添加了markdown-it-named-headers，并移除了与之冲突的 markdown-it-anchor。
 
 使用方法
@@ -8,6 +10,12 @@
 > vsce package // 将会生成markdown-pdf-0.1.8.vsix <br>
 
 在vsce安装扩展：markdown-pdf-0.1.8.vsix
+
+## 功能描述
+
+只能生成html。
+未知的原因，导致生成pdf失败。
+临时方案：用chrome打开生成的html，可以打印为pdf。
 
 # Markdown PDF
 
