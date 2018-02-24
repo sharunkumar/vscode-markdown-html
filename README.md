@@ -3,6 +3,7 @@
 基于yzane的项目：[vscode-markdown-pdf](https://github.com/yzane/vscode-markdown-pdf)
 
 1.　添加了特性：标题链接。
+
 2.　只支持导出为Html。
 
 ## 使用方法
