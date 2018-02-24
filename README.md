@@ -2,13 +2,9 @@
 
 使用方法
 > git clone https://github.com/ZhYong10/vscode-markdown-pdf.git <br>
-
 > cd vscode-markdown-pdf <br>
-
 > // 安装vscode扩展打包工具 vsce <br>
-
 > npm install -g vsce <br>
-
 > vsce package // 将会生成markdown-pdf-0.1.8.vsix <br>
 
 在vsce安装扩展：markdown-pdf-0.1.8.vsix
