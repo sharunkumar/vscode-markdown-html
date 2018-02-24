@@ -162,7 +162,7 @@ MIT
 * [marcbachmann/node-html-pdf](https://github.com/marcbachmann/node-html-pdf)
 * [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
 * [mcecot/markdown-it-checkbox](https://github.com/mcecot/markdown-it-checkbox)
-* [mcecot/markdown-it-named-headers](https://github.com/mcecot/markdown-it-named-headers)
+* [mcecot/markdown-it-named-headers](https://github.com/leff/markdown-it-named-headers)
 * [markdown-it/markdown-it-emoji](https://github.com/markdown-it/markdown-it-emoji)
 * [HenrikJoreteg/emoji-images](https://github.com/HenrikJoreteg/emoji-images)
 * [isagalaev/highlight.js](https://github.com/isagalaev/highlight.js)
