@@ -63,7 +63,7 @@ function MarkdownPdf() {
     // make html
     var html = makeHtml(content);
 
-    var type = vscode.workspace.getConfiguration('markdown-pdf')['type'] || 'pdf';
+    var type = vscode.workspace.getConfiguration('markdown-pdf')['type'] || 'html';
     var types = ['html', 'pdf', 'png', 'jpeg'];
     var filename = '';
     // export html
